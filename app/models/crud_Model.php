@@ -13,7 +13,7 @@ class crud_Model extends Model {
     protected $fillable = [
         'product_name',
         'quantity',
-        'Price',
+        'price',
         'created_at',
         'updated_at'
 
