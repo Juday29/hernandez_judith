@@ -220,7 +220,7 @@
                         </div>
                         <div class="mb-3">
                           <label class="form-label">Price</label>
-                          <input type="number" name="Price" class="form-control" value="<?= $product['price']; ?>" required>
+                          <input type="number" name="price" class="form-control" value="<?= $product['price']; ?>" required>
                         </div>
                       </div>
                       <div class="modal-footer">
