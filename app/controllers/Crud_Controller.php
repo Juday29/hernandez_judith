@@ -56,7 +56,7 @@ class Crud_Controller extends Controller {
             ->name('quantity')
                 ->required()
                 ->max_length(200)
-            ->name('Price')
+            ->name('price')
                 ->required()
                 ->max_length(200);
            
