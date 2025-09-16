@@ -190,7 +190,7 @@
               <tr>
                 <td><?= htmlspecialchars($product['product_name']); ?></td>
                 <td><?= htmlspecialchars($product['quantity']); ?></td>
-                <td>₱<?= htmlspecialchars($product['price']); ?></td>
+                <td>₱<?= htmlspecialchars($product['rice']); ?></td>
                 <td><?= htmlspecialchars($product['created_at']); ?></td>
                 <td><?= htmlspecialchars($product['updated_at']); ?></td>
                 <td>
@@ -220,7 +220,7 @@
                         </div>
                         <div class="mb-3">
                           <label class="form-label">Price</label>
-                          <input type="number" name="Price" class="form-control" value="<?= $product['Price']; ?>" required>
+                          <input type="number" name="Price" class="form-control" value="<?= $product['price']; ?>" required>
                         </div>
                       </div>
                       <div class="modal-footer">
