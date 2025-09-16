@@ -56,7 +56,7 @@ class Crud_Controller extends Controller {
             ->name('quantity')
                 ->required()
                 ->max_length(200)
-            ->name('Price')
+            ->name('price')
                 ->required()
                 ->max_length(200);
            
@@ -69,7 +69,7 @@ class Crud_Controller extends Controller {
             $this->crud_Model->insert([
                 'product_name' => $_POST['product_name'],
                 'quantity' => $_POST['quantity'],
-                'Price'  => $_POST['Price'],
+                'price'  => $_POST['price'],
                 'created_at' => date('y-m-d H:i:s'),
                 'updated_at' => date('y-m-d H:i:s')
             ]);
@@ -85,7 +85,7 @@ class Crud_Controller extends Controller {
         $this->crud_Model->update($id, [
             'product_name' => $_POST['product_name'],
              'quantity' => $_POST['quantity'],
-            'Price'  => $_POST['Price'],
+            'price'  => $_POST['price'],
         ]);
         setMessage('success', 'Product updated successfully!');
         redirect('/');
