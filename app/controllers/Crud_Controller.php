@@ -55,8 +55,10 @@ class Crud_Controller extends Controller {
                 ->max_length(50)        
             ->name('quantity')
                 ->required()
+                ->max_length(200)
+            ->name('Price')
+                ->required()
                 ->max_length(200);
-            
            
 
         if ($this->form_validation->run() == FALSE) {
