@@ -190,7 +190,7 @@
               <tr>
                 <td><?= htmlspecialchars($product['product_name']); ?></td>
                 <td><?= htmlspecialchars($product['quantity']); ?></td>
-                <td>₱<?= htmlspecialchars($product['rice']); ?></td>
+                <td>₱<?= htmlspecialchars($product['price']); ?></td>
                 <td><?= htmlspecialchars($product['created_at']); ?></td>
                 <td><?= htmlspecialchars($product['updated_at']); ?></td>
                 <td>
